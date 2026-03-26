@@ -1,0 +1,43 @@
+### Welcome message
+GET http://localhost:5000/
+
+### Get all rooms
+GET http://localhost:5000/rooms
+
+### Get a specific room
+GET http://localhost:5000/rooms/1
+
+### Create a new room
+POST http://localhost:5000/rooms
+Content-Type: application/json
+
+{
+    "name": "Bathroom"
+}
+
+### Get all devices
+GET http://localhost:5000/devices
+
+### Get a specific device
+GET http://localhost:5000/devices/1
+
+### Create a new device
+POST http://localhost:5000/devices
+Content-Type: application/json
+
+{
+    "name": "Smart Thermostat",
+    "status": "active",
+    "room_id": "1"
+}
+
+### Update a device's status
+PATCH  http://localhost:5000/devices/2
+Content-Type: application/json
+
+{
+    "status": "inactive"
+}
+
+### Delete a device
+DELETE http://localhost:5000/devices/2

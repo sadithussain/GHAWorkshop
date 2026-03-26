@@ -1,0 +1,26 @@
+{
+    "rooms": [
+        {
+            "id": "1",
+            "name": "Living Room"
+        },
+        {
+            "id": "2",
+            "name": "Kitchen"
+        }
+    ],
+    "devices": [
+        {
+            "id": "1",
+            "name": "Smart Lamp",
+            "status": "off",
+            "room_id": "1"
+        },
+        {
+            "id": "2",
+            "name": "Smart Oven",
+            "status": "off",
+            "room_id": "2"
+        }
+    ]
+}
