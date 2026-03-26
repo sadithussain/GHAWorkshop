@@ -18,7 +18,7 @@ jobs:
 
       - name: Install Requirements
         run: |
-          python -m install pip --upgrade pip
+          python -m pip install --upgrade pip
           python -m pip install requirements.txt
 
       - name: Run Tests
